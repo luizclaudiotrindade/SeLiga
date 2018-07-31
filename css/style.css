@@ -1,0 +1,107 @@
+#modal-content {
+	width:70%;
+	text-align:center;
+	background-color:#343a40;
+	color:white;
+	margin: auto;
+	padding: 0 10px 0 10px;
+	border: 2px solid black;
+}
+input{
+	width:100%;
+}
+input[type=submit]{
+	width:40%;
+}
+@media(max-width:400px){
+    #modal-content {
+	    width:100%;
+    }
+    input[type=submit]{
+	    width:45%;
+    }
+    
+}
+.font-title{
+	font-size:20px;
+	font-weight:bold;
+}
+.font-title:hover{
+	cursor:pointer;
+}
+
+/***********************************************************************************************************************/
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin-top:10px;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+  cursor:pointer;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: 8px;
+  right: 13px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+#img_top{
+	position:fixed;
+	top:50%;
+	left:50%;
+}
+#centro{
+	margin-top:90%;
+}
+@media(max-height:600px){
+	#centro{
+		margin-top:62%;
+	}
+}
+@media(max-width:990px){
+	#centro{
+		margin-top:0;
+	}
+	.bg-primary{
+		display:none;
+	}
+}
